@@ -10,12 +10,15 @@ body {
 }
 
 .body {
+  max-height: 100dvh;
+  max-width: 100dvw;
   background-image: url('../images/denim-c7.webp');
   background-position: 50% 0;
   background-size: 1000px;
   justify-content: center;
   align-items: center;
   display: flex;
+  overflow: hidden;
 }
 
 .khaki_container {
